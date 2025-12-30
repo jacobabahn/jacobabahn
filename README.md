@@ -1,4 +1,13 @@
-## Hi there 👋
+```typescript
+const profile: AboutMe = {
+  role: "software engineer",
+  location: "seattle, wa",
+  languages: ["typescript", "go", "python", "cpp"],
+  editors: ["neovim", "zed"],
+  site: "https://jacobbahn.com",
+  publication: "https://www.mdpi.com/2504-4990/7/2/45"
+};
+```
 
 <!--
 **jacobabahn/jacobabahn** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
