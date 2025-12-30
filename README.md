@@ -1,11 +1,15 @@
 ```typescript
-const profile: AboutMe = {
+const aboutMe = {
   role: "software engineer",
   location: "seattle, wa",
-  languages: ["typescript", "go", "python", "cpp"],
-  editors: ["neovim", "zed"],
-  site: "https://jacobbahn.com",
-  publication: "https://www.mdpi.com/2504-4990/7/2/45"
+  url: "https://jacobbahn.com",
+  tech: { 
+    languages: ["typescript", "go", "python", "c++"],
+    frameworks: ["react", "next.js", "gin"],
+    learning: ["rust", "effect.ts"],
+    editors: ["neovim", "zed"],
+    os: ["macOS", "arch"],
+  },
 };
 ```
 
